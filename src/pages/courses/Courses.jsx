@@ -1,7 +1,7 @@
 import React from 'react'
 import "./courses.css";
 import { CourseData } from '../../context/CourseContext.jsx';
-import CourseCard from '../../components/CourseCard/CourseCard.jsx';
+import CourseCard from '../../components/coursecard/CourseCard.jsx';
 
 const Courses = () => {
     const {courses} = CourseData();
